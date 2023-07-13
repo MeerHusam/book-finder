@@ -1,0 +1,64 @@
+/* Container */
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #f2f2f2;
+}
+
+/* Form styling */
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Label styling */
+form label {
+  font-size: 0.9em;
+  margin-bottom: 0.5em;
+  color: #333;
+}
+
+/* Input fields styling */
+form input[type="text"],
+form input[type="password"] {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 0.8em;
+}
+
+/* Submit button styling */
+form input[type="submit"] {
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  background-color: #34495e;
+  color: #fff;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the submit button */
+form input[type="submit"]:hover {
+  background-color: #2c3e50;
+}
+
+/* Message and Error paragraph styling */
+p {
+  color: #27ae60; /* This is for the message text */
+  margin-top: 10px;
+}
+
+/* If there's an error, it will override the previous color */
+p:nth-of-type(1) {
+  color: #c0392b; /* This is for the error text */
+}
